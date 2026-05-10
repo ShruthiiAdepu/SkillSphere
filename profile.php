@@ -1,9 +1,7 @@
 <?php
-// Enable error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Database connection
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -11,12 +9,10 @@ $dbname = "users_registration";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Fetch posts from the database
 $sql = "SELECT * FROM uploads ORDER BY uploaded_at DESC";
 $result = $conn->query($sql);
 
@@ -49,7 +45,7 @@ if (!$result) {
             <h1>art berry</h1>
             <h2>@art_berry123</h2>
             <p class="bio">
-                Welcome! Here you will find the many beautiful images that inspire me to live creatively every day. I hope they will inspire you to do the same.
+                Welcome!
             </p>
         </div>
 
