@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#55758D;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav button {
+    background-color:#d6f6e7;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.card-info p {
+    margin: 10px 0;
+}
+
+.card-info button {
+    background-color: #ccdae4;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+}
+#like{
+    max-width: 30px;
+    max-height: 20px;
+    margin-left: 170px;
+}

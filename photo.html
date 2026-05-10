@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+    <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+    <div class="profile-edit-container">
+        <div class="profile-pic">
+            <img src="image 8.svg" alt="Profile">
+            <button class="edit-button">Edit</button>
+        </div>
+        <form action="photo.php" method="post">
+            <input type="text" id="username" name="username" placeholder="username">
+            <input type="text" id="skillsphereID" name="skillsphereID" placeholder="skillsphereID">
+            <textarea id="about" name="about" placeholder="about"></textarea>
+            <input type="text" id="links" name="links" placeholder="links">
+            <a href="explore2.html" id="button">save</a>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- INSERT INTO `profiles` (`sno`, `id`, `user_id`, `about`, `skillsphereID`, `links`, `timestamp`) VALUES ('1', '245623733002', 'Shruthi2809', 'hi i am shruthi', 'ShruthiAdepu', 'www.shruthiadepu.com', current_timestamp()); -->
+    <!-- INSERT INTO `profiles` (`sno`, `id`, `user_id`, `about`, `skillsphereID`, `links`, `timestamp`) VALUES (NULL, '246', 'deepika', 'hi i am deepika', 'deepikadhakshi', 'www.deepikadhakshi.com', current_timestamp()); -->

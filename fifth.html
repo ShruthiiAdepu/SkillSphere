@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="fifth.css">
+</head>
+<body>
+    <div class="upload-container">
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" id="fileInput" name="fileInput" class="file-input" required />
+            <label for="fileInput" class="file-label">
+                <img src="image 7.svg" alt="Upload Icon" />
+                <br />
+                <img src="Upload Here.svg" alt="Upload" class="upload-image" />
+            </label>
+
+            <h2>Create</h2>
+            <div class="input-container">
+                <input type="text" name="caption" placeholder="caption" class="input-field" required />
+                <br /><br />
+                <input type="text" name="link" placeholder="links" class="input-field" required />
+            </div>
+            <br />
+                <!-- <a href="profile.html" class="button">DONE</a> -->
+                <input type="submit" value="DONE" class="button" />
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- INSERT INTO `posts` (`image_path`, `caption`, `link`, `created_at`) VALUES ('uploading an image', 'i love this idea', 'asfkjnofkcnkifjc', current_timestamp()); -->
+
+<!-- INSERT INTO `uploads` (`id`, `image_path`, `caption`, `link`, `uploaded_at`) VALUES (NULL, 0xffd8ffe000104a46494600010100000100010000ffdb008400090607131212151212131515151716151817181616151816171817151717171d1a18181d28201a1d251b171721312225292b2e2e2e181f3338332d37282d2e2b010a0a0a0e0d0e1b10101b35261f26302d372d2d2d2f2b2d2d2f2d2d2f2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2dffc000110800db00e603012200021101031101ffc4001c0001000105010100000000000000000000000602030405070108ffc4004110000103010407060306050304030000000100021103041221310506224151617107138191a1b132c1f042527282d1e114236292f1a2b2b333435373152425ffc4001a010002030101000000000000000000000000040203050106ffc4003111000202010302040405040300000000000001020311042131051222324151136181914271a1d1f01452b1c1152333ffda000c03010002110311003f00ee2888800888800888800888800888802c5b2d4da4c2f79803d7801c49518a9adeec6290df12e24f2c87a2c0d68d246ad52d69d86123912333e78782d2346384aa67660d7d36863d9dd62dd9b2b5eb0da5e46ddd82d30d102419c[...] -->

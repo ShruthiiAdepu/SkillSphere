@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="sec.css">
+</head>
+<body>
+    <div class="hi">
+        <img src="sign up 1.svg" id="image">
+        <div class="hii">
+            <h1 id="for">Create an Account</h1>
+            <form action="signup.php" method="POST"> 
+                <input type="email" name="email" placeholder="EMAIL" required></br></br>
+                <input type="text" name="roll_no" placeholder="ROLL NO" required></br></br>
+                <input type="text" name="college" placeholder="COLLEGE" required></br></br>
+                <input type="password" name="password" placeholder="PASSWORD" required></br></br>
+                <!-- <a href="photo.html" class="button">SIGN UP</a> -->
+                <button type="submit" class="button">SIGN UP</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!-- INSERT INTO `users` (`id`, `email`, `roll_no`, `college`, `password`, `timestamp`) VALUES (NULL, 'adepu@gmail.com', '002', 'glec', 'hi', current_timestamp()); -->

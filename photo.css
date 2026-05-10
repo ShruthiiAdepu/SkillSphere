@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-edit-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.profile-pic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.edit-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color:#ccdae4;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color:#ccdae4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], textarea {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #d6f6e7;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.save-button {
+    padding: 10px;
+    background-color:#ccdae4;
+    color:black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color:#ccdae4;
+}

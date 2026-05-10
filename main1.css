@@ -1,0 +1,33 @@
+a{
+    text-decoration: none; 
+    font-size: large;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+#ss{
+    max-width: 100px;
+    max-height: 170px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #a9edcc; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #55758d; 
+}
+
+.button:active {
+    background-color: #004494; 
+}
